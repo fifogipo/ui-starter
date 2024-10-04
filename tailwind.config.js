@@ -1,16 +1,17 @@
+import * as flowbite from "flowbite-react/tailwind";
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
+    flowbite.content(),
   ],
   theme: {
     extend: {},
   },
+  darkMode: 'selector',
   plugins: [
-    require('@tailwindcss/typography'),
-    require('@tailwindcss/forms'),
-    require('@tailwindcss/aspect-ratio'),
-    require('@tailwindcss/container-queries'),
+    flowbite.plugin(),
   ]
 }
