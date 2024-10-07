@@ -3,6 +3,19 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "license": "MIT",
+  "author": {
+    "name": "Federico Gasperoni",
+    "email": "fed.gasperoni@gmail.com",
+    "url": "https://github.com/fifogipo"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "LICENSE",
+    "README.md"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
